@@ -1,0 +1,2 @@
+# rayriga.com
+personal blog
