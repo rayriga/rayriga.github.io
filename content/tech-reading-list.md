@@ -1,3 +1,8 @@
++++
+title = "A Tale of Two Bushes"
+date = 2020-01-01
++++
+
 # Tech Reading List
 
 - [How to Design Programs](http://htdp.org)
