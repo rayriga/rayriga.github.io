@@ -1,11 +1,9 @@
 +++
-title = "A Tale of Two Bushes"
-date = 2020-01-01
+title = "Tech Recommended Reading"
+date = 2020-02-02
 +++
 
-# Tech Reading List
-
 - [How to Design Programs](http://htdp.org)
-- [Learn You Some Erlang](https://learnyousomeerlang.com)
+- [Learn You Some Erlang](https://learnyousomeerlang.com/content)
 - [Physically Based Rendering; From Theory to Implementation](http://pbr-book.org)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
