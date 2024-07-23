@@ -1,18 +1,12 @@
-name: Publish to Github Pages
-
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-      
+on: push
+name: Publish to Github Pages      
 jobs:
   build:
-    name: Publish to GitHub Pages
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
-
+      - name: checkout
+      - uses: actions/checkout@v4
       # Download and run TailwindCSS
       - name: TailwindCSS Build
         run: |
@@ -20,10 +14,9 @@ jobs:
              chmod +x tailwindcss-linux-x64
              mv tailwindcss-linux-x64 /usr/local/bin/tailwindcss
              tailwindcss -i src-styles/base.scss -o static/styles/main.css --minify
-
       - name: Zola Deploy
         uses: shalzz/zola-deploy-action@master
         env:
-          PAGES_BRANCH: main
+          PAGES_BRANCH: gh-pages
           BUILD_DIR: .
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
