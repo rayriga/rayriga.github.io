@@ -1,6 +1,8 @@
 +++
 title = "Fix a Typo and Level Up"
 date = 2023-01-07
+[extra]
+abstract = "The wonder of open source communities and version control merge queues"
 +++
 
 Have you ever been reading something, noticed a typo, and wished you had the power to fix it? There's a latent copyeditor hiding somewhere in the mind of every literate person. Providing that kind of power to fix it is part of the promise and process of "open source." In this particular definition, I mean the sense that the code (or hardware, or prose, or whatever) is available for everyone to see _and_ to directly make proposed modifications which are then selectively accepted/rejected by one or more gatekeepers who do their best to judge whether or not it is an overall beneficial change, versus a newspaper where all you can do is write a letter to the editor. Think Wikipedia vs. Microsoft Encarta. Remember Microsoft Encarta? I won't fault you if you don't.

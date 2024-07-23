@@ -1,6 +1,8 @@
 +++
 title = "A Tale of Two Bushes"
 date = 2020-09-08
+[extra]
+abstract = "Ranked Choice Voting is a nonpartisan electoral reform that can greatly improve our democracy."
 +++
 
 Ranked Choice Voting (RCV), also known as instant-runoff voting, is a voting method where you rank the options on a ballot in order of preference, instead of voting for a single option. So, if there are three candidates on the ballot, you can select your first choice, your second choice, and your third choice. The ballots are then tabulated to select the candidate who will make the greatest amount of voters happy. Not only does RCV allow a more robust expression of voter preferences, but it's also a solution for major parties to the “spoiler effect” of alternative parties in a democracy.

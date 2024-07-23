@@ -1,6 +1,8 @@
 +++
 title = "Audacity with AAC Support on Linux"
 date = 2023-12-29
+[extra]
+abstract = "How to teach some world-class FOSS (Free and Open Source Software) a new trick"
 +++
 
 ## The Story
