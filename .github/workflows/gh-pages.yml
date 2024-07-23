@@ -3,6 +3,8 @@ name: Publish to Github Pages
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     if: github.ref == 'refs/heads/main'
     steps:
       - name: checkout
@@ -15,8 +17,6 @@ jobs:
              mv tailwindcss-linux-x64 /usr/local/bin/tailwindcss
              tailwindcss -i src-styles/base.scss -o static/styles/main.css --minify
       - name: Zola Deploy
-        permissions:
-          contents: write
         uses: shalzz/zola-deploy-action@master
         env:
           PAGES_BRANCH: gh-pages
