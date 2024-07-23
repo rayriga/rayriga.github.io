@@ -2,7 +2,10 @@
 
 {% block content %}
 <div class="space-y-6">
-	<h2 class="text-3xl font-extrabold dark:text-gray-900">Recent posts</h2>
+	<div>
+		<h2 class="text-3xl font-extrabold dark:text-gray-900">Writings</h2>
+		<p>Occasional posts on philosophical and technological topics</p>
+	</div>
 	<ul class="space-y-8 xl:space-y-10">
 		{% set blog_section = get_section(path="blog/_index.md") %}
 		{% for post in blog_section.pages %}
@@ -25,7 +28,7 @@
 		{% endfor %}
 	</ul>
 </div>
-<div class="space-y-6">
+<div class="space-y-6 pt-6">
 	<div>
 		<h2 class="text-3xl font-extrabold">Projects</h2>
 		<p>Here are some of my current endeavors.</p>
@@ -36,10 +39,10 @@
 		</a>
 		<div class="flex flex-col flex-1 p-6">
 			<a rel="noopener noreferrer" href="https://tlehl.com" aria-label="TLEHL" class="flex flex-col dark:bg-gray-50"></a>
-			<a rel="noopener noreferrer" href="https://tlehl.com" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Entrepreneurial</a>
-			<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">TLEHL: fully licensed craft cannabis manufacturer in NJ</h3>
+			<a rel="noopener noreferrer" href="https://tlehl.com" class="text-xs tracking-wider uppercase hover:underline dark:text-sky-600">Entrepreneurial</a>
+			<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">TLEHL: fully licensed NJ craft cannabis manufacturer</h3>
 			<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
-				<span>Pre-seed stage venture</span>
+				<span>Pre-seed venture</span>
 				<span>Founded September 2022</span>
 			</div>
 		</div>
@@ -48,8 +51,8 @@
 		</a>
 		<div class="flex flex-col flex-1 p-6">
 			<a rel="noopener noreferrer" href="https://basementtapas.com" aria-label="Basement Tapas radio" class="flex flex-col dark:bg-gray-50"></a>
-			<a rel="noopener noreferrer" href="https://basementtapas.com" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Creative</a>
-			<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Basement Tapas: internet radio on Saturday nights featuring eclectic musical selections</h3>
+			<a rel="noopener noreferrer" href="https://basementtapas.com" class="text-xs tracking-wider uppercase hover:underline dark:text-sky-600">Creative</a>
+			<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Basement Tapas: eclectic plates of music on Saturday nights</h3>
 			<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
 				<span>#RadioFreeMontclair</span>
 				<span>Started January 2024</span>
@@ -60,7 +63,7 @@
 		</a>
 		<div class="flex flex-col flex-1 p-6">
 			<a rel="noopener noreferrer" href="https://github.com/jazzband/geojson" aria-label="GeoJSON" class="flex flex-col dark:bg-gray-50"></a>
-			<a rel="noopener noreferrer" href="https://github.com/jazzband/geojson" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Technologist</a>
+			<a rel="noopener noreferrer" href="https://github.com/jazzband/geojson" class="text-xs tracking-wider uppercase hover:underline dark:text-sky-600">Technologist</a>
 			<h3 class="flex-1 py-2 text-lg font-semibold leading-snug">GeoJSON: project lead of Python package depended on by over 17,000 GitHub repos</h3>
 			<div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
 				<span>Volunteer open source maintainer</span>
