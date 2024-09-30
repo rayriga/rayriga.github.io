@@ -40,4 +40,4 @@ With that, there are now three ways to interact with this private, fully open so
  
 ## Conclusion
 
-In all honesty, there were several failed attempts over as many months that occured with setting up this Jetson module before the events described above. There was even a moment of doubt and regret where I thought I'd never get it working. Now, I no longer doubt nor regret the value of this ambitious project. In fact, I like having my very own talking rubber duck!
+In all honesty, there were several failed attempts over as many months that occurred with setting up this Jetson module before the events described above. There was even a moment of doubt and regret where I thought I'd never get it working. Now, I no longer doubt nor regret the value of this ambitious project. In fact, I like having my very own talking rubber duck!
