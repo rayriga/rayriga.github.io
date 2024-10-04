@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://rayriga.com/</loc>
+    </url>
+    <url>
+        <loc>https://rayriga.com/blog/</loc>
+    </url>
+    <url>
+        <loc>https://rayriga.com/blog/a-tale-of-two-bushes/</loc>
+        <lastmod>2020-09-08</lastmod>
+    </url>
+    <url>
+        <loc>https://rayriga.com/blog/audacity-with-aac-support-ubuntu-linux/</loc>
+        <lastmod>2023-12-29</lastmod>
+    </url>
+    <url>
+        <loc>https://rayriga.com/blog/fix-a-typo-and-level-up/</loc>
+        <lastmod>2023-01-07</lastmod>
+    </url>
+    <url>
+        <loc>https://rayriga.com/blog/ollama-my-llama/</loc>
+        <lastmod>2024-09-29</lastmod>
+    </url>
+</urlset>
