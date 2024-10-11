@@ -5,6 +5,20 @@ date = 2023-12-29
 abstract = "How to teach some world-class FOSS (Free and Open Source Software) a new trick"
 +++
 
+**UPDATE 2024-10-11:** My audio workstation was recently upgraded from Linux Mint 21 to 22 (equivalent to an upgrade from Ubuntu 22.04 to 24.04).
+
+Using the AppImage version of Audacity as per the approach described below didn't work for AAC export (couldn't find the proper lib). Some research led me [here](https://forum.audacityteam.org/t/libavformat-so-no-longer-found-after-upgrade/107269/4):
+
+So, here's the new instructions on how to to install Audacity with AAC export support for Ubuntu 24.04-like systems:
+
+```
+sudo apt install audacity
+```
+
+...and that's it. LOL. Below is everything that was required to get it working in Ubuntu 22.04-like systems.
+
+---
+
 ## The Story
 
 I recently had the good fortune of becoming part of the team at [Radio Free Montclair](https://www.radiofreemontclair.org) (RFM) and have decided to come out of "DJ retirement" to start a new show. These days I prefer to use FOSS (Free Open Source Software) to do my internet radio DJing, and I use [Mixxx](https://mixxx.org) for actual DJing and [Audacity](https://www.audacityteam.org) for post-production.
