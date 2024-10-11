@@ -7,9 +7,7 @@ abstract = "How to teach some world-class FOSS (Free and Open Source Software) a
 
 **UPDATE 2024-10-11:** My audio workstation was recently upgraded from Linux Mint 21 to 22 (equivalent to an upgrade from Ubuntu 22.04 to 24.04).
 
-Using the AppImage version of Audacity as per the approach described below didn't work for AAC export (couldn't find the proper lib). Some research led me [here](https://forum.audacityteam.org/t/libavformat-so-no-longer-found-after-upgrade/107269/4):
-
-So, here's the new instructions on how to to install Audacity with AAC export support for Ubuntu 24.04-like systems:
+Using the AppImage version of Audacity as per the approach described below didn't work for AAC export (couldn't find the proper lib). The solution [here](https://forum.audacityteam.org/t/libavformat-so-no-longer-found-after-upgrade/107269/1) on how to to install Audacity with AAC export support for Ubuntu 24.04-like systems couldn't be simpler:
 
 ```
 sudo apt install audacity
